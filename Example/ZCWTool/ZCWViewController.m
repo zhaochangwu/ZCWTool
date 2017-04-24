@@ -7,6 +7,7 @@
 //
 
 #import "ZCWViewController.h"
+#import <ZCWTool/ZCWDefine.h>
 
 @interface ZCWViewController ()
 
@@ -18,6 +19,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+	ZCWDebugLog(@"ZCWSystemVersion %f", ZCWSystemVersion());
+	ZCWDebugLog(@"ZCWSystemVersionOrLater(5.f) %i", ZCWSystemVersionOrLater(5.f));
+	ZCWDebugLog(@"ZCWSystemVersionOrLater(11.f) %i", ZCWSystemVersionOrLater(11.f));
+	ZCWDebugLog(@"ZCWScreenBounds %@", NSStringFromCGRect(ZCWScreenBounds()));
+	ZCWDebugLog(@"ZCWScreenSize %@", NSStringFromCGSize(ZCWScreenSize()));
+	ZCWDebugLog(@"ZCWScreenWidth %f", ZCWScreenWidth());
+	ZCWDebugLog(@"ZCWScreenHeight %f", ZCWScreenHeight());
+	ZCWDebugLog(@"ZCWNavBarHeight %f", ZCWNavBarHeight());
+	ZCWDebugLog(@"ZCWStatusBarHeight %f", ZCWStatusBarHeight());
+
 }
 
 - (void)didReceiveMemoryWarning
