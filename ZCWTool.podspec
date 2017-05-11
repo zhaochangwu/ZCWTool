@@ -30,13 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ZCWTool/Classes/**/*'
+  s.source_files = 'ZCWTool/Source/**/*.{h,m}','ZCWTool/OtherSource/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'ZCWTool' => ['ZCWTool/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

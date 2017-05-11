@@ -4,6 +4,8 @@
 
 osx_image: xcode7.3
 language: objective-c
+xcode_workspace: Example/ZCWTool.xcworkspace # path to your xcodeproj folder
+xcode_scheme: ZCWTool
 # cache: cocoapods
 # podfile: Example/Podfile
 # before_install:

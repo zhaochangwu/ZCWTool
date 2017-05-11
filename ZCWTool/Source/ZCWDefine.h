@@ -117,4 +117,8 @@ static inline BOOL ZCWValidNSArray (NSArray *arr) {
 	return YES;
 }
 
+static inline NSString * ZCWDocumentDirectory() {
+	return [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
+}
+
 #endif /* ZCWDefine_h */

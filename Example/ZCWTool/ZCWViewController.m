@@ -28,6 +28,7 @@
 	ZCWDebugLog(@"ZCWScreenHeight %f", ZCWScreenHeight());
 	ZCWDebugLog(@"ZCWNavBarHeight %f", ZCWNavBarHeight());
 	ZCWDebugLog(@"ZCWStatusBarHeight %f", ZCWStatusBarHeight());
+	ZCWDebugLog(@"ZCWDocumentDirectory:%@", ZCWDocumentDirectory());
 
 }
 
