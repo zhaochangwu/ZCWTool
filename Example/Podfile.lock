@@ -10,7 +10,7 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - Specta (1.0.6)
-  - ZCWTool (0.0.2)
+  - ZCWTool (0.0.3)
 
 DEPENDENCIES:
   - Expecta
@@ -28,7 +28,7 @@ SPEC CHECKSUMS:
   Expecta+Snapshots: aee0487f8bbb9df7e0b7735380565ac06207e959
   FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
   Specta: f506f3a8361de16bc0dcf3b17b75e269072ba465
-  ZCWTool: b26c9a986125dae258bf0e455e90ddca252cc670
+  ZCWTool: 59e9eb59cb5afa441871d4229a41be97af49b649
 
 PODFILE CHECKSUM: 7d174752483e58a179b28c95d4e2999f1383f74f
 
