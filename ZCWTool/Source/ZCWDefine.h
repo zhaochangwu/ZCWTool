@@ -58,21 +58,24 @@ static inline CGSize ZCWScreenSize () {
 }
 
 static inline CGFloat ZCWScreenWidth () {
-	return [UIScreen mainScreen].bounds.size.width;
+	return CGRectGetWidth([UIScreen mainScreen].bounds);
 }
 
 static inline CGFloat ZCWScreenHeight() {
-	return [UIScreen mainScreen].bounds.size.height;
-}
-
-static inline CGFloat ZCWNavBarHeight () {
-	return 64.f;
+	return CGRectGetHeight([UIScreen mainScreen].bounds);
 }
 
 static inline CGFloat ZCWStatusBarHeight () {
-	return 20.f;
+    if (ZCWScreenHeight() == 812.f) {
+        //iphone X
+        return 44.f;
+    } else {
+        return 20.f;
+    }
 }
-
+static inline CGFloat ZCWNavBarHeight () {
+	return 44.f + ZCWStatusBarHeight();
+}
 
 //Valid Type
 
