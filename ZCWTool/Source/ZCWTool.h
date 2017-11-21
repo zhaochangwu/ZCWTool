@@ -16,7 +16,6 @@
 #import "NSString+ZCWEmoji.h"
 #import "UIColor+ZCWHex.h"
 #import "UIView+ZCWExtension.h"
-#import "ZCWCounter.h"
 
 #import "NSString+HTMLEntityDecode.h"
 
