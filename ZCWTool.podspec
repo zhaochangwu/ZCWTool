@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZCWTool'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'The tools I use for developing'
 
 # This description is used to generate tags and improve search results.
