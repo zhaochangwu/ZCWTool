@@ -124,4 +124,10 @@ static inline NSString * ZCWDocumentDirectory() {
 	return [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
 }
 
+static inline NSString *ZCWMoneyStringFromNumber(NSNumber *number) {
+    NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
+    formatter.numberStyle =NSNumberFormatterDecimalStyle;
+    return [formatter stringFromNumber:number];
+}
+
 #endif /* ZCWDefine_h */

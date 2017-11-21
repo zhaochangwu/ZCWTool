@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/ZCWTool.svg?style=flat)](http://cocoapods.org/pods/ZCWTool)
 [![Platform](https://img.shields.io/cocoapods/p/ZCWTool.svg?style=flat)](http://cocoapods.org/pods/ZCWTool)
 
+一些自己常用分类，定义，方便集成
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
